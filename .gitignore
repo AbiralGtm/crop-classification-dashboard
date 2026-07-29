@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Backend
+backend/.env
+backend/*.db
+data/models/*.joblib
+!data/models/.gitkeep
+data/samples/*.csv
+!data/samples/.gitkeep
+
+# Secrets / service accounts
+*service-account*.json
+*-key.json
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/next-env.d.ts
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
