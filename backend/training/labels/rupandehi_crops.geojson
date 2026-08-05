@@ -1,0 +1,2246 @@
+{
+  "type": "FeatureCollection",
+  "_comment": "EXPANDED PLACEHOLDER labels for the Rupandehi District (Terai) pilot, Lumbini Province, Nepal. 64 polygons (8 per crop class), programmatically scattered across farmland near Siddharthanagar/Bhairahawa with randomized jitter. This is STILL SYNTHETIC data, not field-verified ground truth -- there is no way to know what is actually growing at these exact coordinates without a real survey or a real dataset. The improvement over the earlier 8-polygon set is purely about having enough points per class (8 instead of 1) for the held-out accuracy evaluation to produce non-degenerate numbers (app/gee/features.py:evaluate_classifier) -- it does NOT make the classification itself trustworthy. Replace with real labels before drawing any real conclusions; see project_plan.md section 3 for concrete leads (ICIMOD/SERVIR-HKH, RicePAL). crop_class ids match app.config.Settings.crop_classes: 0=non_crop 1=rice 2=wheat 3=maize 4=sugarcane 5=lentil 6=mustard 7=vegetables.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 0,
+        "crop_name": "non_crop",
+        "note": "synthetic placeholder - built-up / roadway / homestead cluster near Siddharthanagar (field 1/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.42810025812534,
+              27.531146243162993
+            ],
+            [
+              83.42910025812535,
+              27.531146243162993
+            ],
+            [
+              83.42910025812535,
+              27.53214624316299
+            ],
+            [
+              83.42810025812534,
+              27.53214624316299
+            ],
+            [
+              83.42810025812534,
+              27.531146243162993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 0,
+        "crop_name": "non_crop",
+        "note": "synthetic placeholder - built-up / roadway / homestead cluster near Siddharthanagar (field 2/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.43285705771557,
+              27.522400703640862
+            ],
+            [
+              83.43385705771557,
+              27.522400703640862
+            ],
+            [
+              83.43385705771557,
+              27.52340070364086
+            ],
+            [
+              83.43285705771557,
+              27.52340070364086
+            ],
+            [
+              83.43285705771557,
+              27.522400703640862
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 0,
+        "crop_name": "non_crop",
+        "note": "synthetic placeholder - built-up / roadway / homestead cluster near Siddharthanagar (field 3/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.44374078769815,
+              27.533475309139938
+            ],
+            [
+              83.44474078769815,
+              27.533475309139938
+            ],
+            [
+              83.44474078769815,
+              27.534475309139935
+            ],
+            [
+              83.44374078769815,
+              27.534475309139935
+            ],
+            [
+              83.44374078769815,
+              27.533475309139938
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 0,
+        "crop_name": "non_crop",
+        "note": "synthetic placeholder - built-up / roadway / homestead cluster near Siddharthanagar (field 4/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4295865319831,
+              27.53721230962492
+            ],
+            [
+              83.43058653198311,
+              27.53721230962492
+            ],
+            [
+              83.43058653198311,
+              27.538212309624917
+            ],
+            [
+              83.4295865319831,
+              27.538212309624917
+            ],
+            [
+              83.4295865319831,
+              27.53721230962492
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 0,
+        "crop_name": "non_crop",
+        "note": "synthetic placeholder - built-up / roadway / homestead cluster near Siddharthanagar (field 5/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4282151332665,
+              27.52592612367245
+            ],
+            [
+              83.42921513326651,
+              27.52592612367245
+            ],
+            [
+              83.42921513326651,
+              27.526926123672446
+            ],
+            [
+              83.4282151332665,
+              27.526926123672446
+            ],
+            [
+              83.4282151332665,
+              27.52592612367245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 0,
+        "crop_name": "non_crop",
+        "note": "synthetic placeholder - built-up / roadway / homestead cluster near Siddharthanagar (field 6/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.43962852691448,
+              27.52104731139529
+            ],
+            [
+              83.44062852691448,
+              27.52104731139529
+            ],
+            [
+              83.44062852691448,
+              27.522047311395287
+            ],
+            [
+              83.43962852691448,
+              27.522047311395287
+            ],
+            [
+              83.43962852691448,
+              27.52104731139529
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 0,
+        "crop_name": "non_crop",
+        "note": "synthetic placeholder - built-up / roadway / homestead cluster near Siddharthanagar (field 7/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.43227210361647,
+              27.516436863272414
+            ],
+            [
+              83.43327210361647,
+              27.516436863272414
+            ],
+            [
+              83.43327210361647,
+              27.517436863272412
+            ],
+            [
+              83.43227210361647,
+              27.517436863272412
+            ],
+            [
+              83.43227210361647,
+              27.516436863272414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 0,
+        "crop_name": "non_crop",
+        "note": "synthetic placeholder - built-up / roadway / homestead cluster near Siddharthanagar (field 8/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.44057859553448,
+              27.531397226506712
+            ],
+            [
+              83.44157859553448,
+              27.531397226506712
+            ],
+            [
+              83.44157859553448,
+              27.53239722650671
+            ],
+            [
+              83.44057859553448,
+              27.53239722650671
+            ],
+            [
+              83.44057859553448,
+              27.531397226506712
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 1,
+        "crop_name": "rice",
+        "note": "synthetic placeholder - monsoon-season paddy, flat Terai plain (field 1/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.42164237641302,
+              27.446090574928977
+            ],
+            [
+              83.42264237641302,
+              27.446090574928977
+            ],
+            [
+              83.42264237641302,
+              27.447090574928975
+            ],
+            [
+              83.42164237641302,
+              27.447090574928975
+            ],
+            [
+              83.42164237641302,
+              27.446090574928977
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 1,
+        "crop_name": "rice",
+        "note": "synthetic placeholder - monsoon-season paddy, flat Terai plain (field 2/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.40765597023227,
+              27.460226330960268
+            ],
+            [
+              83.40865597023227,
+              27.460226330960268
+            ],
+            [
+              83.40865597023227,
+              27.461226330960265
+            ],
+            [
+              83.40765597023227,
+              27.461226330960265
+            ],
+            [
+              83.40765597023227,
+              27.460226330960268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 1,
+        "crop_name": "rice",
+        "note": "synthetic placeholder - monsoon-season paddy, flat Terai plain (field 3/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.42425534547972,
+              27.460139662043986
+            ],
+            [
+              83.42525534547973,
+              27.460139662043986
+            ],
+            [
+              83.42525534547973,
+              27.461139662043983
+            ],
+            [
+              83.42425534547972,
+              27.461139662043983
+            ],
+            [
+              83.42425534547972,
+              27.460139662043986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 1,
+        "crop_name": "rice",
+        "note": "synthetic placeholder - monsoon-season paddy, flat Terai plain (field 4/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.41123150799548,
+              27.448966012396433
+            ],
+            [
+              83.41223150799549,
+              27.448966012396433
+            ],
+            [
+              83.41223150799549,
+              27.44996601239643
+            ],
+            [
+              83.41123150799548,
+              27.44996601239643
+            ],
+            [
+              83.41123150799548,
+              27.448966012396433
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 1,
+        "crop_name": "rice",
+        "note": "synthetic placeholder - monsoon-season paddy, flat Terai plain (field 5/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4155782690827,
+              27.463773113732962
+            ],
+            [
+              83.4165782690827,
+              27.463773113732962
+            ],
+            [
+              83.4165782690827,
+              27.46477311373296
+            ],
+            [
+              83.4155782690827,
+              27.46477311373296
+            ],
+            [
+              83.4155782690827,
+              27.463773113732962
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 1,
+        "crop_name": "rice",
+        "note": "synthetic placeholder - monsoon-season paddy, flat Terai plain (field 6/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.409821193044,
+              27.443025900241125
+            ],
+            [
+              83.410821193044,
+              27.443025900241125
+            ],
+            [
+              83.410821193044,
+              27.444025900241122
+            ],
+            [
+              83.409821193044,
+              27.444025900241122
+            ],
+            [
+              83.409821193044,
+              27.443025900241125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 1,
+        "crop_name": "rice",
+        "note": "synthetic placeholder - monsoon-season paddy, flat Terai plain (field 7/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.42198942475281,
+              27.46113986479234
+            ],
+            [
+              83.42298942475281,
+              27.46113986479234
+            ],
+            [
+              83.42298942475281,
+              27.462139864792338
+            ],
+            [
+              83.42198942475281,
+              27.462139864792338
+            ],
+            [
+              83.42198942475281,
+              27.46113986479234
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 1,
+        "crop_name": "rice",
+        "note": "synthetic placeholder - monsoon-season paddy, flat Terai plain (field 8/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.42501356288065,
+              27.460171078558584
+            ],
+            [
+              83.42601356288066,
+              27.460171078558584
+            ],
+            [
+              83.42601356288066,
+              27.461171078558582
+            ],
+            [
+              83.42501356288065,
+              27.461171078558582
+            ],
+            [
+              83.42501356288065,
+              27.460171078558584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 2,
+        "crop_name": "wheat",
+        "note": "synthetic placeholder - winter wheat, rabi season (field 1/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4408547783355,
+              27.498669474194916
+            ],
+            [
+              83.44185477833551,
+              27.498669474194916
+            ],
+            [
+              83.44185477833551,
+              27.499669474194913
+            ],
+            [
+              83.4408547783355,
+              27.499669474194913
+            ],
+            [
+              83.4408547783355,
+              27.498669474194916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 2,
+        "crop_name": "wheat",
+        "note": "synthetic placeholder - winter wheat, rabi season (field 2/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.43074897515056,
+              27.494884825053003
+            ],
+            [
+              83.43174897515057,
+              27.494884825053003
+            ],
+            [
+              83.43174897515057,
+              27.495884825053
+            ],
+            [
+              83.43074897515056,
+              27.495884825053
+            ],
+            [
+              83.43074897515056,
+              27.494884825053003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 2,
+        "crop_name": "wheat",
+        "note": "synthetic placeholder - winter wheat, rabi season (field 3/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.43234447405675,
+              27.505705711942074
+            ],
+            [
+              83.43334447405675,
+              27.505705711942074
+            ],
+            [
+              83.43334447405675,
+              27.50670571194207
+            ],
+            [
+              83.43234447405675,
+              27.50670571194207
+            ],
+            [
+              83.43234447405675,
+              27.505705711942074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 2,
+        "crop_name": "wheat",
+        "note": "synthetic placeholder - winter wheat, rabi season (field 4/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.43135645148617,
+              27.50648096560746
+            ],
+            [
+              83.43235645148617,
+              27.50648096560746
+            ],
+            [
+              83.43235645148617,
+              27.507480965607456
+            ],
+            [
+              83.43135645148617,
+              27.507480965607456
+            ],
+            [
+              83.43135645148617,
+              27.50648096560746
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 2,
+        "crop_name": "wheat",
+        "note": "synthetic placeholder - winter wheat, rabi season (field 5/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.41859978520775,
+              27.50270972406916
+            ],
+            [
+              83.41959978520775,
+              27.50270972406916
+            ],
+            [
+              83.41959978520775,
+              27.503709724069157
+            ],
+            [
+              83.41859978520775,
+              27.503709724069157
+            ],
+            [
+              83.41859978520775,
+              27.50270972406916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 2,
+        "crop_name": "wheat",
+        "note": "synthetic placeholder - winter wheat, rabi season (field 6/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.42444531112646,
+              27.491269558615638
+            ],
+            [
+              83.42544531112647,
+              27.491269558615638
+            ],
+            [
+              83.42544531112647,
+              27.492269558615636
+            ],
+            [
+              83.42444531112646,
+              27.492269558615636
+            ],
+            [
+              83.42444531112646,
+              27.491269558615638
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 2,
+        "crop_name": "wheat",
+        "note": "synthetic placeholder - winter wheat, rabi season (field 7/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.42308698127268,
+              27.48771500744617
+            ],
+            [
+              83.42408698127268,
+              27.48771500744617
+            ],
+            [
+              83.42408698127268,
+              27.488715007446167
+            ],
+            [
+              83.42308698127268,
+              27.488715007446167
+            ],
+            [
+              83.42308698127268,
+              27.48771500744617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 2,
+        "crop_name": "wheat",
+        "note": "synthetic placeholder - winter wheat, rabi season (field 8/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.42417136647465,
+              27.488224034305833
+            ],
+            [
+              83.42517136647466,
+              27.488224034305833
+            ],
+            [
+              83.42517136647466,
+              27.48922403430583
+            ],
+            [
+              83.42417136647465,
+              27.48922403430583
+            ],
+            [
+              83.42417136647465,
+              27.488224034305833
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 3,
+        "crop_name": "maize",
+        "note": "synthetic placeholder - spring/summer maize (field 1/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.46125597229528,
+              27.51605642666235
+            ],
+            [
+              83.46225597229528,
+              27.51605642666235
+            ],
+            [
+              83.46225597229528,
+              27.517056426662347
+            ],
+            [
+              83.46125597229528,
+              27.517056426662347
+            ],
+            [
+              83.46125597229528,
+              27.51605642666235
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 3,
+        "crop_name": "maize",
+        "note": "synthetic placeholder - spring/summer maize (field 2/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.45752816873852,
+              27.509684343210807
+            ],
+            [
+              83.45852816873852,
+              27.509684343210807
+            ],
+            [
+              83.45852816873852,
+              27.510684343210805
+            ],
+            [
+              83.45752816873852,
+              27.510684343210805
+            ],
+            [
+              83.45752816873852,
+              27.509684343210807
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 3,
+        "crop_name": "maize",
+        "note": "synthetic placeholder - spring/summer maize (field 3/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4749797101051,
+              27.50720746772918
+            ],
+            [
+              83.47597971010511,
+              27.50720746772918
+            ],
+            [
+              83.47597971010511,
+              27.50820746772918
+            ],
+            [
+              83.4749797101051,
+              27.50820746772918
+            ],
+            [
+              83.4749797101051,
+              27.50720746772918
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 3,
+        "crop_name": "maize",
+        "note": "synthetic placeholder - spring/summer maize (field 4/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.467119144136,
+              27.51635284924592
+            ],
+            [
+              83.46811914413601,
+              27.51635284924592
+            ],
+            [
+              83.46811914413601,
+              27.517352849245917
+            ],
+            [
+              83.467119144136,
+              27.517352849245917
+            ],
+            [
+              83.467119144136,
+              27.51635284924592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 3,
+        "crop_name": "maize",
+        "note": "synthetic placeholder - spring/summer maize (field 5/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4699990431508,
+              27.504907327556758
+            ],
+            [
+              83.47099904315081,
+              27.504907327556758
+            ],
+            [
+              83.47099904315081,
+              27.505907327556756
+            ],
+            [
+              83.4699990431508,
+              27.505907327556756
+            ],
+            [
+              83.4699990431508,
+              27.504907327556758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 3,
+        "crop_name": "maize",
+        "note": "synthetic placeholder - spring/summer maize (field 6/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.46160693060219,
+              27.50472165985029
+            ],
+            [
+              83.46260693060219,
+              27.50472165985029
+            ],
+            [
+              83.46260693060219,
+              27.505721659850288
+            ],
+            [
+              83.46160693060219,
+              27.505721659850288
+            ],
+            [
+              83.46160693060219,
+              27.50472165985029
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 3,
+        "crop_name": "maize",
+        "note": "synthetic placeholder - spring/summer maize (field 7/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4678599942365,
+              27.52454856041528
+            ],
+            [
+              83.46885999423651,
+              27.52454856041528
+            ],
+            [
+              83.46885999423651,
+              27.525548560415277
+            ],
+            [
+              83.4678599942365,
+              27.525548560415277
+            ],
+            [
+              83.4678599942365,
+              27.52454856041528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 3,
+        "crop_name": "maize",
+        "note": "synthetic placeholder - spring/summer maize (field 8/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.46893074202376,
+              27.514166793850595
+            ],
+            [
+              83.46993074202376,
+              27.514166793850595
+            ],
+            [
+              83.46993074202376,
+              27.515166793850593
+            ],
+            [
+              83.46893074202376,
+              27.515166793850593
+            ],
+            [
+              83.46893074202376,
+              27.514166793850595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 4,
+        "crop_name": "sugarcane",
+        "note": "synthetic placeholder - sugarcane, common cash crop in Rupandehi (field 1/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.41112399787711,
+              27.476028446084555
+            ],
+            [
+              83.41212399787712,
+              27.476028446084555
+            ],
+            [
+              83.41212399787712,
+              27.477028446084553
+            ],
+            [
+              83.41112399787711,
+              27.477028446084553
+            ],
+            [
+              83.41112399787711,
+              27.476028446084555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 4,
+        "crop_name": "sugarcane",
+        "note": "synthetic placeholder - sugarcane, common cash crop in Rupandehi (field 2/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.3932704058537,
+              27.461297153727138
+            ],
+            [
+              83.3942704058537,
+              27.461297153727138
+            ],
+            [
+              83.3942704058537,
+              27.462297153727135
+            ],
+            [
+              83.3932704058537,
+              27.462297153727135
+            ],
+            [
+              83.3932704058537,
+              27.461297153727138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 4,
+        "crop_name": "sugarcane",
+        "note": "synthetic placeholder - sugarcane, common cash crop in Rupandehi (field 3/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.39892578102342,
+              27.46337087315342
+            ],
+            [
+              83.39992578102343,
+              27.46337087315342
+            ],
+            [
+              83.39992578102343,
+              27.464370873153417
+            ],
+            [
+              83.39892578102342,
+              27.464370873153417
+            ],
+            [
+              83.39892578102342,
+              27.46337087315342
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 4,
+        "crop_name": "sugarcane",
+        "note": "synthetic placeholder - sugarcane, common cash crop in Rupandehi (field 4/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.41512983314404,
+              27.460863588246074
+            ],
+            [
+              83.41612983314404,
+              27.460863588246074
+            ],
+            [
+              83.41612983314404,
+              27.46186358824607
+            ],
+            [
+              83.41512983314404,
+              27.46186358824607
+            ],
+            [
+              83.41512983314404,
+              27.460863588246074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 4,
+        "crop_name": "sugarcane",
+        "note": "synthetic placeholder - sugarcane, common cash crop in Rupandehi (field 5/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.40005226913917,
+              27.476832823035345
+            ],
+            [
+              83.40105226913917,
+              27.476832823035345
+            ],
+            [
+              83.40105226913917,
+              27.477832823035342
+            ],
+            [
+              83.40005226913917,
+              27.477832823035342
+            ],
+            [
+              83.40005226913917,
+              27.476832823035345
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 4,
+        "crop_name": "sugarcane",
+        "note": "synthetic placeholder - sugarcane, common cash crop in Rupandehi (field 6/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.40199516562545,
+              27.471530527967076
+            ],
+            [
+              83.40299516562546,
+              27.471530527967076
+            ],
+            [
+              83.40299516562546,
+              27.472530527967074
+            ],
+            [
+              83.40199516562545,
+              27.472530527967074
+            ],
+            [
+              83.40199516562545,
+              27.471530527967076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 4,
+        "crop_name": "sugarcane",
+        "note": "synthetic placeholder - sugarcane, common cash crop in Rupandehi (field 7/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4035124444621,
+              27.477749142153773
+            ],
+            [
+              83.4045124444621,
+              27.477749142153773
+            ],
+            [
+              83.4045124444621,
+              27.47874914215377
+            ],
+            [
+              83.4035124444621,
+              27.47874914215377
+            ],
+            [
+              83.4035124444621,
+              27.477749142153773
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 4,
+        "crop_name": "sugarcane",
+        "note": "synthetic placeholder - sugarcane, common cash crop in Rupandehi (field 8/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.39841906018465,
+              27.462157123995954
+            ],
+            [
+              83.39941906018466,
+              27.462157123995954
+            ],
+            [
+              83.39941906018466,
+              27.463157123995952
+            ],
+            [
+              83.39841906018465,
+              27.463157123995952
+            ],
+            [
+              83.39841906018465,
+              27.462157123995954
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 5,
+        "crop_name": "lentil",
+        "note": "synthetic placeholder - winter lentil (masoor), rabi season (field 1/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.47880579860455,
+              27.524272835219914
+            ],
+            [
+              83.47980579860456,
+              27.524272835219914
+            ],
+            [
+              83.47980579860456,
+              27.525272835219912
+            ],
+            [
+              83.47880579860455,
+              27.525272835219912
+            ],
+            [
+              83.47880579860455,
+              27.524272835219914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 5,
+        "crop_name": "lentil",
+        "note": "synthetic placeholder - winter lentil (masoor), rabi season (field 2/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.49404774920646,
+              27.524830063765364
+            ],
+            [
+              83.49504774920646,
+              27.524830063765364
+            ],
+            [
+              83.49504774920646,
+              27.525830063765362
+            ],
+            [
+              83.49404774920646,
+              27.525830063765362
+            ],
+            [
+              83.49404774920646,
+              27.524830063765364
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 5,
+        "crop_name": "lentil",
+        "note": "synthetic placeholder - winter lentil (masoor), rabi season (field 3/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.47776369821977,
+              27.52038561212337
+            ],
+            [
+              83.47876369821978,
+              27.52038561212337
+            ],
+            [
+              83.47876369821978,
+              27.521385612123368
+            ],
+            [
+              83.47776369821977,
+              27.521385612123368
+            ],
+            [
+              83.47776369821977,
+              27.52038561212337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 5,
+        "crop_name": "lentil",
+        "note": "synthetic placeholder - winter lentil (masoor), rabi season (field 4/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.48472863104823,
+              27.534740902555882
+            ],
+            [
+              83.48572863104823,
+              27.534740902555882
+            ],
+            [
+              83.48572863104823,
+              27.53574090255588
+            ],
+            [
+              83.48472863104823,
+              27.53574090255588
+            ],
+            [
+              83.48472863104823,
+              27.534740902555882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 5,
+        "crop_name": "lentil",
+        "note": "synthetic placeholder - winter lentil (masoor), rabi season (field 5/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.47363079301019,
+              27.512981825892172
+            ],
+            [
+              83.47463079301019,
+              27.512981825892172
+            ],
+            [
+              83.47463079301019,
+              27.51398182589217
+            ],
+            [
+              83.47363079301019,
+              27.51398182589217
+            ],
+            [
+              83.47363079301019,
+              27.512981825892172
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 5,
+        "crop_name": "lentil",
+        "note": "synthetic placeholder - winter lentil (masoor), rabi season (field 6/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.48755870500086,
+              27.513431579128415
+            ],
+            [
+              83.48855870500087,
+              27.513431579128415
+            ],
+            [
+              83.48855870500087,
+              27.514431579128413
+            ],
+            [
+              83.48755870500086,
+              27.514431579128413
+            ],
+            [
+              83.48755870500086,
+              27.513431579128415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 5,
+        "crop_name": "lentil",
+        "note": "synthetic placeholder - winter lentil (masoor), rabi season (field 7/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4826318392032,
+              27.52980990474471
+            ],
+            [
+              83.4836318392032,
+              27.52980990474471
+            ],
+            [
+              83.4836318392032,
+              27.530809904744707
+            ],
+            [
+              83.4826318392032,
+              27.530809904744707
+            ],
+            [
+              83.4826318392032,
+              27.52980990474471
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 5,
+        "crop_name": "lentil",
+        "note": "synthetic placeholder - winter lentil (masoor), rabi season (field 8/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.48165886287616,
+              27.51232466494765
+            ],
+            [
+              83.48265886287616,
+              27.51232466494765
+            ],
+            [
+              83.48265886287616,
+              27.513324664947646
+            ],
+            [
+              83.48165886287616,
+              27.513324664947646
+            ],
+            [
+              83.48165886287616,
+              27.51232466494765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 6,
+        "crop_name": "mustard",
+        "note": "synthetic placeholder - mustard/oilseed, winter season (field 1/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.46019874428238,
+              27.454706913125765
+            ],
+            [
+              83.46119874428238,
+              27.454706913125765
+            ],
+            [
+              83.46119874428238,
+              27.455706913125763
+            ],
+            [
+              83.46019874428238,
+              27.455706913125763
+            ],
+            [
+              83.46019874428238,
+              27.454706913125765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 6,
+        "crop_name": "mustard",
+        "note": "synthetic placeholder - mustard/oilseed, winter season (field 2/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.46815871285364,
+              27.454105881062727
+            ],
+            [
+              83.46915871285364,
+              27.454105881062727
+            ],
+            [
+              83.46915871285364,
+              27.455105881062725
+            ],
+            [
+              83.46815871285364,
+              27.455105881062725
+            ],
+            [
+              83.46815871285364,
+              27.454105881062727
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 6,
+        "crop_name": "mustard",
+        "note": "synthetic placeholder - mustard/oilseed, winter season (field 3/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.46479732366465,
+              27.431075544526628
+            ],
+            [
+              83.46579732366466,
+              27.431075544526628
+            ],
+            [
+              83.46579732366466,
+              27.432075544526626
+            ],
+            [
+              83.46479732366465,
+              27.432075544526626
+            ],
+            [
+              83.46479732366465,
+              27.431075544526628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 6,
+        "crop_name": "mustard",
+        "note": "synthetic placeholder - mustard/oilseed, winter season (field 4/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.46038728792982,
+              27.44716104885664
+            ],
+            [
+              83.46138728792982,
+              27.44716104885664
+            ],
+            [
+              83.46138728792982,
+              27.448161048856637
+            ],
+            [
+              83.46038728792982,
+              27.448161048856637
+            ],
+            [
+              83.46038728792982,
+              27.44716104885664
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 6,
+        "crop_name": "mustard",
+        "note": "synthetic placeholder - mustard/oilseed, winter season (field 5/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.46288308316592,
+              27.437203804558862
+            ],
+            [
+              83.46388308316592,
+              27.437203804558862
+            ],
+            [
+              83.46388308316592,
+              27.43820380455886
+            ],
+            [
+              83.46288308316592,
+              27.43820380455886
+            ],
+            [
+              83.46288308316592,
+              27.437203804558862
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 6,
+        "crop_name": "mustard",
+        "note": "synthetic placeholder - mustard/oilseed, winter season (field 6/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.45793436601606,
+              27.433477252166302
+            ],
+            [
+              83.45893436601607,
+              27.433477252166302
+            ],
+            [
+              83.45893436601607,
+              27.4344772521663
+            ],
+            [
+              83.45793436601606,
+              27.4344772521663
+            ],
+            [
+              83.45793436601606,
+              27.433477252166302
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 6,
+        "crop_name": "mustard",
+        "note": "synthetic placeholder - mustard/oilseed, winter season (field 7/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.47039158226052,
+              27.441689368951902
+            ],
+            [
+              83.47139158226052,
+              27.441689368951902
+            ],
+            [
+              83.47139158226052,
+              27.4426893689519
+            ],
+            [
+              83.47039158226052,
+              27.4426893689519
+            ],
+            [
+              83.47039158226052,
+              27.441689368951902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 6,
+        "crop_name": "mustard",
+        "note": "synthetic placeholder - mustard/oilseed, winter season (field 8/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.45382133721803,
+              27.45182047056908
+            ],
+            [
+              83.45482133721804,
+              27.45182047056908
+            ],
+            [
+              83.45482133721804,
+              27.452820470569076
+            ],
+            [
+              83.45382133721803,
+              27.452820470569076
+            ],
+            [
+              83.45382133721803,
+              27.45182047056908
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 7,
+        "crop_name": "vegetables",
+        "note": "synthetic placeholder - mixed vegetable plots near settlement (field 1/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.48678764513272,
+              27.487814066713206
+            ],
+            [
+              83.48778764513273,
+              27.487814066713206
+            ],
+            [
+              83.48778764513273,
+              27.488814066713203
+            ],
+            [
+              83.48678764513272,
+              27.488814066713203
+            ],
+            [
+              83.48678764513272,
+              27.487814066713206
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 7,
+        "crop_name": "vegetables",
+        "note": "synthetic placeholder - mixed vegetable plots near settlement (field 2/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.50339244567608,
+              27.497703068144276
+            ],
+            [
+              83.50439244567609,
+              27.497703068144276
+            ],
+            [
+              83.50439244567609,
+              27.498703068144273
+            ],
+            [
+              83.50339244567608,
+              27.498703068144273
+            ],
+            [
+              83.50339244567608,
+              27.497703068144276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 7,
+        "crop_name": "vegetables",
+        "note": "synthetic placeholder - mixed vegetable plots near settlement (field 3/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.49783478787678,
+              27.482962674994766
+            ],
+            [
+              83.49883478787679,
+              27.482962674994766
+            ],
+            [
+              83.49883478787679,
+              27.483962674994764
+            ],
+            [
+              83.49783478787678,
+              27.483962674994764
+            ],
+            [
+              83.49783478787678,
+              27.482962674994766
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 7,
+        "crop_name": "vegetables",
+        "note": "synthetic placeholder - mixed vegetable plots near settlement (field 4/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.4861681424452,
+              27.490415285074516
+            ],
+            [
+              83.4871681424452,
+              27.490415285074516
+            ],
+            [
+              83.4871681424452,
+              27.491415285074513
+            ],
+            [
+              83.4861681424452,
+              27.491415285074513
+            ],
+            [
+              83.4861681424452,
+              27.490415285074516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 7,
+        "crop_name": "vegetables",
+        "note": "synthetic placeholder - mixed vegetable plots near settlement (field 5/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.49544509672288,
+              27.494100259201804
+            ],
+            [
+              83.49644509672288,
+              27.494100259201804
+            ],
+            [
+              83.49644509672288,
+              27.495100259201802
+            ],
+            [
+              83.49544509672288,
+              27.495100259201802
+            ],
+            [
+              83.49544509672288,
+              27.494100259201804
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 7,
+        "crop_name": "vegetables",
+        "note": "synthetic placeholder - mixed vegetable plots near settlement (field 6/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.49522848813268,
+              27.494487035487133
+            ],
+            [
+              83.49622848813269,
+              27.494487035487133
+            ],
+            [
+              83.49622848813269,
+              27.49548703548713
+            ],
+            [
+              83.49522848813268,
+              27.49548703548713
+            ],
+            [
+              83.49522848813268,
+              27.494487035487133
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 7,
+        "crop_name": "vegetables",
+        "note": "synthetic placeholder - mixed vegetable plots near settlement (field 7/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.49027974536811,
+              27.47581372550707
+            ],
+            [
+              83.49127974536812,
+              27.47581372550707
+            ],
+            [
+              83.49127974536812,
+              27.476813725507068
+            ],
+            [
+              83.49027974536811,
+              27.476813725507068
+            ],
+            [
+              83.49027974536811,
+              27.47581372550707
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crop_class": 7,
+        "crop_name": "vegetables",
+        "note": "synthetic placeholder - mixed vegetable plots near settlement (field 8/8)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              83.50479836679035,
+              27.47626744181726
+            ],
+            [
+              83.50579836679036,
+              27.47626744181726
+            ],
+            [
+              83.50579836679036,
+              27.477267441817258
+            ],
+            [
+              83.50479836679035,
+              27.477267441817258
+            ],
+            [
+              83.50479836679035,
+              27.47626744181726
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
