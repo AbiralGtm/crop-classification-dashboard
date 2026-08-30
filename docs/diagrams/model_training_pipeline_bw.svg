@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black"/>
+    </marker>
+  </defs>
+
+  <style>
+    .box { fill: white; stroke: black; stroke-width: 1.5; }
+    .lbl { font-family: "Times New Roman", Times, serif; font-size: 14pt; fill: black; text-anchor: middle; }
+    .arrow-line { stroke: black; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- Row 1: pipeline -->
+  <rect class="box" x="20" y="30" width="200" height="100"/>
+  <text class="lbl" x="120" y="75"><tspan x="120" dy="0">Labeled</tspan><tspan x="120" dy="20">Points</tspan></text>
+
+  <rect class="box" x="260" y="30" width="200" height="100"/>
+  <text class="lbl" x="360" y="65"><tspan x="360" dy="0">Feature Stack</tspan><tspan x="360" dy="20">(spectral, radar,</tspan><tspan x="360" dy="20">terrain, phenology)</tspan></text>
+
+  <rect class="box" x="500" y="30" width="200" height="100"/>
+  <text class="lbl" x="600" y="75"><tspan x="600" dy="0">Random Forest</tspan><tspan x="600" dy="20">(200 trees)</tspan></text>
+
+  <rect class="box" x="740" y="30" width="200" height="100"/>
+  <text class="lbl" x="840" y="75"><tspan x="840" dy="0">Classified</tspan><tspan x="840" dy="20">Map</tspan></text>
+
+  <!-- Horizontal arrows -->
+  <line class="arrow-line" x1="220" y1="80" x2="258" y2="80" marker-end="url(#arrow)"/>
+  <line class="arrow-line" x1="460" y1="80" x2="498" y2="80" marker-end="url(#arrow)"/>
+  <line class="arrow-line" x1="700" y1="80" x2="738" y2="80" marker-end="url(#arrow)"/>
+
+  <!-- Vertical arrow down to held-out evaluation -->
+  <line class="arrow-line" x1="600" y1="130" x2="600" y2="230" marker-end="url(#arrow)"/>
+
+  <!-- Held-out evaluation box -->
+  <rect class="box" x="470" y="230" width="260" height="100"/>
+  <text class="lbl" x="600" y="270"><tspan x="600" dy="0">Held-out Evaluation</tspan><tspan x="600" dy="20">(25% test split: accuracy,</tspan><tspan x="600" dy="20">kappa, precision/recall)</tspan></text>
+</svg>

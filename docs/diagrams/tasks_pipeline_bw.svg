@@ -1,0 +1,60 @@
+<svg viewBox="0 0 950 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill: white; stroke: black; stroke-width: 1.5; }
+    .lbl-b { font-family: "Times New Roman", Times, serif; font-size: 20px; fill: black; text-anchor: middle; }
+    .conn { stroke: black; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- Row 1 -->
+  <rect class="box" x="20" y="30" width="160" height="70"/>
+  <text class="lbl-b" x="100" y="60">Feature</text>
+  <text class="lbl-b" x="100" y="80">Engineering</text>
+
+  <rect class="box" x="210" y="30" width="160" height="70"/>
+  <text class="lbl-b" x="290" y="60">Training</text>
+  <text class="lbl-b" x="290" y="80">Labels</text>
+
+  <rect class="box" x="400" y="30" width="160" height="70"/>
+  <text class="lbl-b" x="480" y="55">Classification</text>
+  <text class="lbl-b" x="480" y="74">&amp; Accuracy</text>
+  <text class="lbl-b" x="480" y="92">Evaluation</text>
+
+  <rect class="box" x="590" y="30" width="160" height="70"/>
+  <text class="lbl-b" x="670" y="60">Persistence &amp;</text>
+  <text class="lbl-b" x="670" y="80">AOI History</text>
+
+  <rect class="box" x="780" y="30" width="150" height="70"/>
+  <text class="lbl-b" x="855" y="60">Frontend &amp;</text>
+  <text class="lbl-b" x="855" y="80">Export</text>
+
+  <!-- Row 2 -->
+  <rect class="box" x="210" y="200" width="160" height="70"/>
+  <text class="lbl-b" x="290" y="230">Testing &amp;</text>
+  <text class="lbl-b" x="290" y="250">Verification</text>
+
+  <rect class="box" x="400" y="200" width="160" height="70"/>
+  <text class="lbl-b" x="480" y="230">Configuration &amp;</text>
+  <text class="lbl-b" x="480" y="250">Deployment</text>
+
+  <rect class="box" x="590" y="200" width="160" height="70"/>
+  <text class="lbl-b" x="670" y="230">Debugging &amp;</text>
+  <text class="lbl-b" x="670" y="250">Region Migration</text>
+
+  <!-- Connectors row 1 -->
+  <path class="conn" d="M 180 65 L 208 65" marker-end="url(#arrow)"/>
+  <path class="conn" d="M 370 65 L 398 65" marker-end="url(#arrow)"/>
+  <path class="conn" d="M 560 65 L 588 65" marker-end="url(#arrow)"/>
+  <path class="conn" d="M 750 65 L 778 65" marker-end="url(#arrow)"/>
+
+  <!-- Down from row1 end to row2 -->
+  <path class="conn" d="M 855 100 L 855 140 L 670 140 L 670 198" marker-end="url(#arrow)"/>
+
+  <!-- Connectors row 2 (right to left, reflecting iterative loop back) -->
+  <path class="conn" d="M 588 235 L 560 235" marker-end="url(#arrow)"/>
+  <path class="conn" d="M 398 235 L 370 235" marker-end="url(#arrow)"/>
+</svg>

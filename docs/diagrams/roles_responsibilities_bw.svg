@@ -1,0 +1,53 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill: white; stroke: black; stroke-width: 1.5; }
+    .lbl-b { font-family: "Times New Roman", Times, serif; font-size: 18px; fill: black; text-anchor: middle; }
+    .conn { stroke: black; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- Row 1: Supervisors -->
+  <rect class="box" x="150" y="20" width="260" height="60"/>
+  <text class="lbl-b" x="280" y="45">External Supervisor (CTO)</text>
+  <text class="lbl-b" x="280" y="63">Technical review</text>
+
+  <rect class="box" x="490" y="20" width="260" height="60"/>
+  <text class="lbl-b" x="620" y="45">Internal Supervisor (PU)</text>
+  <text class="lbl-b" x="620" y="63">Academic review</text>
+
+  <!-- Row 2: Intern -->
+  <rect class="box" x="350" y="140" width="200" height="60"/>
+  <text class="lbl-b" x="450" y="175">Intern</text>
+
+  <!-- Row 3: Responsibility areas -->
+  <rect class="box" x="20" y="260" width="200" height="70"/>
+  <text class="lbl-b" x="120" y="288">Backend API &amp;</text>
+  <text class="lbl-b" x="120" y="306">GEE Integration</text>
+
+  <rect class="box" x="240" y="260" width="200" height="70"/>
+  <text class="lbl-b" x="340" y="280">ML Feature</text>
+  <text class="lbl-b" x="340" y="298">Engineering &amp;</text>
+  <text class="lbl-b" x="340" y="316">Training</text>
+
+  <rect class="box" x="460" y="260" width="200" height="70"/>
+  <text class="lbl-b" x="560" y="288">Frontend Map &amp;</text>
+  <text class="lbl-b" x="560" y="306">Dashboard</text>
+
+  <rect class="box" x="680" y="260" width="200" height="70"/>
+  <text class="lbl-b" x="780" y="288">Testing &amp;</text>
+  <text class="lbl-b" x="780" y="306">Documentation</text>
+
+  <!-- Connectors: Supervisors -> Intern -->
+  <path class="conn" d="M 280 80 L 280 110 L 450 110 L 450 136" marker-end="url(#arrow)"/>
+  <path class="conn" d="M 620 80 L 620 110 L 450 110" />
+
+  <!-- Connectors: Intern -> Responsibility areas -->
+  <path class="conn" d="M 450 200 L 450 230 L 120 230 L 120 256" marker-end="url(#arrow)"/>
+  <path class="conn" d="M 450 230 L 340 230 L 340 256" marker-end="url(#arrow)"/>
+  <path class="conn" d="M 450 230 L 560 230 L 560 256" marker-end="url(#arrow)"/>
+  <path class="conn" d="M 450 230 L 780 230 L 780 256" marker-end="url(#arrow)"/>
+</svg>
